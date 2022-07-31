@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 app.get('/', (req, res)=>{
 
     let elements = []
-    const imgs = ["https://drive.google.com/uc?id=1jj9vRunUhMMo7QZS6UFgxaaA281_bX0A", "https://chatbot-tickets.s3.amazonaws.com/4507365a-dff0-487e-8528-7a6d46e14ab9!0","https://chatbot-tickets.s3.amazonaws.com/4507365a-dff0-487e-8528-7a6d46e14ab9!0"]
+    const imgs = ["https://drive.google.com/uc?id=1jj9vRunUhMMo7QZS6UFgxaaA281_bX0A", "https://avatars.mds.yandex.net/i?id=559282fbba3baa8d5ed2862c8bd25974-5517488-images-thumbs&n=13","https://chatbot-tickets.s3.amazonaws.com/4507365a-dff0-487e-8528-7a6d46e14ab9!0"]
     for(let i = 0; i < 3; i++){
         let e = {
             title: `test title`,
